@@ -1,0 +1,11 @@
+E:\Projects\Winform\五子棋\五子棋\obj\Debug\五子棋.AboutForm.resources
+E:\Projects\Winform\五子棋\五子棋\obj\Debug\五子棋.HelpForm.resources
+E:\Projects\Winform\五子棋\五子棋\obj\Debug\五子棋.MainForm.resources
+E:\Projects\Winform\五子棋\五子棋\obj\Debug\FiveChess.csproj.GenerateResource.Cache
+E:\Projects\Winform\五子棋\五子棋\obj\Debug\FiveChess.Properties.Resources.resources
+E:\Projects\Winform\五子棋\五子棋\bin\Debug\FiveChess.exe
+E:\Projects\Winform\五子棋\五子棋\bin\Debug\FiveChess.pdb
+E:\Projects\Winform\五子棋\五子棋\obj\Debug\FiveChess.exe
+E:\Projects\Winform\五子棋\五子棋\obj\Debug\FiveChess.pdb
+E:\Projects\Winform\FiveChess\FiveChess\obj\Debug\FiveChess.exe
+E:\Projects\Winform\FiveChess\FiveChess\obj\Debug\FiveChess.pdb
