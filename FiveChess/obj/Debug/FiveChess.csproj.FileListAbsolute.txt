@@ -1,0 +1,10 @@
+E:\Projects\GitHub\Winform\FiveChess\FiveChess\bin\Debug\FiveChess.exe.config
+E:\Projects\GitHub\Winform\FiveChess\FiveChess\obj\Debug\FiveChess.MainForm.resources
+E:\Projects\GitHub\Winform\FiveChess\FiveChess\obj\Debug\FiveChess.Properties.Resources.resources
+E:\Projects\GitHub\Winform\FiveChess\FiveChess\obj\Debug\FiveChess.csproj.GenerateResource.Cache
+E:\Projects\GitHub\Winform\FiveChess\FiveChess\bin\Debug\FiveChess.exe
+E:\Projects\GitHub\Winform\FiveChess\FiveChess\bin\Debug\FiveChess.pdb
+E:\Projects\GitHub\Winform\FiveChess\FiveChess\obj\Debug\FiveChess.AboutForm.resources
+E:\Projects\GitHub\Winform\FiveChess\FiveChess\obj\Debug\FiveChess.HelpForm.resources
+E:\Projects\GitHub\Winform\FiveChess\FiveChess\obj\Debug\FiveChess.exe
+E:\Projects\GitHub\Winform\FiveChess\FiveChess\obj\Debug\FiveChess.pdb
