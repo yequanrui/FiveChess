@@ -67,7 +67,7 @@
             // 
             // startButton
             // 
-            this.startButton.Location = new System.Drawing.Point(632, 316);
+            this.startButton.Location = new System.Drawing.Point(633, 309);
             this.startButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(92, 33);
@@ -78,7 +78,7 @@
             // 
             // backButton
             // 
-            this.backButton.Location = new System.Drawing.Point(632, 372);
+            this.backButton.Location = new System.Drawing.Point(633, 365);
             this.backButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(92, 33);
@@ -91,11 +91,11 @@
             // 
             this.groupBox1.Controls.Add(this.computerRadioButton);
             this.groupBox1.Controls.Add(this.personRadioButton);
-            this.groupBox1.Location = new System.Drawing.Point(616, 18);
+            this.groupBox1.Location = new System.Drawing.Point(619, 14);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox1.Size = new System.Drawing.Size(121, 112);
+            this.groupBox1.Size = new System.Drawing.Size(121, 100);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "下棋顺序";
@@ -106,7 +106,7 @@
             this.computerRadioButton.Location = new System.Drawing.Point(21, 61);
             this.computerRadioButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.computerRadioButton.Name = "computerRadioButton";
-            this.computerRadioButton.Size = new System.Drawing.Size(71, 16);
+            this.computerRadioButton.Size = new System.Drawing.Size(83, 24);
             this.computerRadioButton.TabIndex = 1;
             this.computerRadioButton.Text = "电脑先下";
             this.computerRadioButton.UseVisualStyleBackColor = true;
@@ -118,7 +118,7 @@
             this.personRadioButton.Location = new System.Drawing.Point(21, 27);
             this.personRadioButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.personRadioButton.Name = "personRadioButton";
-            this.personRadioButton.Size = new System.Drawing.Size(71, 16);
+            this.personRadioButton.Size = new System.Drawing.Size(83, 24);
             this.personRadioButton.TabIndex = 0;
             this.personRadioButton.TabStop = true;
             this.personRadioButton.Text = "玩家先下";
@@ -132,7 +132,7 @@
             this.groupBox2.Controls.Add(this.pictureBox2);
             this.groupBox2.Controls.Add(this.pictureBox1);
             this.groupBox2.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox2.Location = new System.Drawing.Point(616, 138);
+            this.groupBox2.Location = new System.Drawing.Point(619, 124);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -146,7 +146,7 @@
             this.whiteLabel.AutoSize = true;
             this.whiteLabel.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.whiteLabel.ForeColor = System.Drawing.Color.Blue;
-            this.whiteLabel.Location = new System.Drawing.Point(57, 105);
+            this.whiteLabel.Location = new System.Drawing.Point(57, 97);
             this.whiteLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.whiteLabel.Name = "whiteLabel";
             this.whiteLabel.Size = new System.Drawing.Size(52, 27);
@@ -158,7 +158,7 @@
             this.blackLabel.AutoSize = true;
             this.blackLabel.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.blackLabel.ForeColor = System.Drawing.Color.Red;
-            this.blackLabel.Location = new System.Drawing.Point(57, 42);
+            this.blackLabel.Location = new System.Drawing.Point(57, 36);
             this.blackLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.blackLabel.Name = "blackLabel";
             this.blackLabel.Size = new System.Drawing.Size(52, 27);
@@ -168,7 +168,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackgroundImage = global::FiveChess.Properties.Resources.whitestone;
-            this.pictureBox2.Location = new System.Drawing.Point(9, 90);
+            this.pictureBox2.Location = new System.Drawing.Point(9, 89);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(40, 42);
@@ -213,7 +213,7 @@
             // escButton
             // 
             this.escButton.AutoSize = true;
-            this.escButton.Location = new System.Drawing.Point(632, 484);
+            this.escButton.Location = new System.Drawing.Point(633, 477);
             this.escButton.Name = "escButton";
             this.escButton.Size = new System.Drawing.Size(92, 33);
             this.escButton.TabIndex = 6;
@@ -223,7 +223,7 @@
             // 
             // aboutButton
             // 
-            this.aboutButton.Location = new System.Drawing.Point(632, 428);
+            this.aboutButton.Location = new System.Drawing.Point(633, 421);
             this.aboutButton.Name = "aboutButton";
             this.aboutButton.Size = new System.Drawing.Size(92, 33);
             this.aboutButton.TabIndex = 5;

@@ -1,18 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
 using System.Collections;
-using System.Threading;
 
 namespace FiveChess
-{    
+{
     public partial class MainForm : Form
     {
-        //动画窗体调用，关闭时将向上移除屏幕
+        // 动画窗体调用，关闭时将向上移除屏幕
         [System.Runtime.InteropServices.DllImport("user32")]
         private static extern bool AnimateWindow(IntPtr hwnd, int dwTime, int dwFlags);
         const int AW_HOR_POSITIVE = 0x0001;

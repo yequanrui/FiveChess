@@ -9,8 +9,8 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("Designed by FY")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("FY")]
-[assembly: AssemblyProduct("FiveChess made by VS2015(C#)")]
-[assembly: AssemblyCopyright("Copyright © 2011-2017")]
+[assembly: AssemblyProduct("FiveChess made by VS2022(C#)")]
+[assembly: AssemblyCopyright("Copyright © 2011-2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 //可以指定所有这些值，也可以使用“生成号”和“修订号”的默认值，
 // 方法是按如下所示使用“*”: :
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("4.8.1.0")]
+[assembly: AssemblyFileVersion("1.2.0.0")]

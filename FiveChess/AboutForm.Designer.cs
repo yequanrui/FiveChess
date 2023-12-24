@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_close = new System.Windows.Forms.Button();
+            this.CancelBtn = new System.Windows.Forms.Button();
             this.lbl_tool = new System.Windows.Forms.Label();
             this.lbl_author = new System.Windows.Forms.Label();
             this.lbl_about = new System.Windows.Forms.Label();
@@ -36,20 +36,21 @@
             this.lbl_time = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // btn_close
+            // CancelBtn
             // 
-            this.btn_close.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btn_close.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_close.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_close.Location = new System.Drawing.Point(92, 158);
-            this.btn_close.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btn_close.Name = "btn_close";
-            this.btn_close.Size = new System.Drawing.Size(70, 29);
-            this.btn_close.TabIndex = 5;
-            this.btn_close.Text = "关闭";
-            this.btn_close.UseVisualStyleBackColor = true;
-            this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
+            this.CancelBtn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.CancelBtn.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.CancelBtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.CancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.CancelBtn.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.CancelBtn.Location = new System.Drawing.Point(92, 158);
+            this.CancelBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CancelBtn.Name = "CancelBtn";
+            this.CancelBtn.Size = new System.Drawing.Size(70, 29);
+            this.CancelBtn.TabIndex = 5;
+            this.CancelBtn.Text = "关闭";
+            this.CancelBtn.UseVisualStyleBackColor = false;
+            this.CancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
             // lbl_tool
             // 
@@ -59,7 +60,7 @@
             this.lbl_tool.Name = "lbl_tool";
             this.lbl_tool.Size = new System.Drawing.Size(210, 22);
             this.lbl_tool.TabIndex = 4;
-            this.lbl_tool.Text = "编程工具：VS2015（C＃）";
+            this.lbl_tool.Text = "编程工具：VS2022（C＃）";
             // 
             // lbl_author
             // 
@@ -107,7 +108,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(250, 200);
-            this.Controls.Add(this.btn_close);
+            this.Controls.Add(this.CancelBtn);
             this.Controls.Add(this.lbl_time);
             this.Controls.Add(this.lbl_tool);
             this.Controls.Add(this.lbl_author);
@@ -132,7 +133,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btn_close;
+        private System.Windows.Forms.Button CancelBtn;
         private System.Windows.Forms.Label lbl_tool;
         private System.Windows.Forms.Label lbl_author;
         private System.Windows.Forms.Label lbl_about;
