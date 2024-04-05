@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("FY")]
 [assembly: AssemblyProduct("FiveChess made by VS2022(C#)")]
-[assembly: AssemblyCopyright("Copyright © 2011-2023")]
+[assembly: AssemblyCopyright("Copyright © 2011-2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
